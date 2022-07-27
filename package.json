@@ -1,5 +1,5 @@
 {
-  "name": "introduccion-a-js",
+  "name": "introduccion-a",
   "version": "1.0.0",
   "description": "Ejercicios para aprender a programar formularios",
   "main": "README.md",
@@ -7,6 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "homepage": "https://github.com/cg-diazborromeo/introduccion-a-js#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "cypress": "^10.3.0"
   }
 }
